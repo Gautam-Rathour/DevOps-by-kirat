@@ -9,7 +9,7 @@ RUN npm install
 
 COPY . .
 
-ENV DATABASE_URL = postgresql://postgres:mysecretpassword@localhost:5432/mydb
+ENV DATABASE_URL=postgresql://postgres:mysecretpassword@localhost:5432/postgres
 RUN echo $DATABASE_URL
 
 
